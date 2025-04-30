@@ -43,7 +43,7 @@
             line-height: 1.6;
             display: flex;
             flex-direction: column;
-            min-height: 100vh;
+            min-height: 80vh;
         }
 
         /* Encabezado mejorado */
