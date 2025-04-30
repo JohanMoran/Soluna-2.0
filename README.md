@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
     <style>
         :root {
-            --color-primario: #8B5A2B;
-            --color-secundario: #D2B48C;
-            --color-terciario: #F5DEB3;
-            --color-destacado: #A0522D;
-            --color-texto: #5C4033;
-            --borde-decorativo: #CD853F;
-            --fondo-body: #FFF8DC;
-            --sombra: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --color-primario: #C8A2C8;  /* Lila pastel */
+            --color-secundario: #FFD1DC; /* Rosa claro */
+            --color-terciario: #E0F7FA;  /* Azul muy claro */
+            --color-destacado: #B5EAD7;  /* Verde menta */
+            --color-texto: #6D6875;      /* Gris morado */
+            --borde-decorativo: #FFB7B2; /* Coral claro */
+            --fondo-body: #FAF9F6;       /* Blanco hueso */
+            --sombra: 0 4px 8px rgba(0, 0, 0, 0.05);
             --transicion: all 0.3s ease;
         }
         
