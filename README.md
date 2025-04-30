@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="SOLUN - Artesanías en velas, decoración y recuerdos para eventos. Productos únicos y personalizados para bodas, cumpleaños y ocasiones especiales.">
+    <meta name="description" content="SOLUNA - Artesanías en velas, decoración y recuerdos para eventos. Productos únicos y personalizados para bodas, cumpleaños y ocasiones especiales.">
     <meta name="keywords" content="velas artesanales, decoración eventos, recuerdos para bodas, centros de mesa, regalos personalizados">
-    <title>SOLUN - Recuerdos y Decoración Artesanal para Eventos</title>
+    <title>SOLUNA - Recuerdos y Decoración Artesanal para Eventos</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
     <style>
@@ -146,17 +146,16 @@
 
         /* Menú lateral más ancho y ajustado al borde */
         .menu-lateral {
-            width: 350px; /* Aumentado de 250px a 350px */
+            width: 320px;
             background-color: var(--color-secundario);
-            padding: 25px 20px;
-            border-right: 1px solid var(--borde-decorativo);
-            position: sticky;
-            top: 80px;
-            align-self: flex-start;
-            height: calc(100vh - 80px);
+            padding: 30px 25px;
+            position: fixed;
+            top: 65px;
+            left: 0;
+            height: calc(100vh - 65px);
             overflow-y: auto;
+            z-index: 900;
             transition: var(--transicion);
-            margin-left: 0; /* Asegura que esté pegado al borde */
         }
 
         .logo-container {
@@ -184,7 +183,7 @@
 
         .menu-lateral ul {
             list-style: none;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
 
         .menu-lateral li {
@@ -192,17 +191,14 @@
         }
 
         .menu-lateral a {
+            display: block;
+            padding: 12px 20px;
             color: var(--color-texto);
             text-decoration: none;
-            font-size: 1rem; /* Aumentado ligeramente */
+            border-radius: 8px;
             transition: var(--transicion);
-            display: block;
-            padding: 12px 15px; /* Aumentado el padding */
-            border-radius: 15px;
-            background-color: rgba(255, 255, 255, 0.3);
-            position: relative;
-            overflow: hidden;
-        }
+            font-size: 1.1rem;
+            background-color: rgba(255,255,255,0.4);        }
 
         .menu-lateral a::before {
             content: '';
@@ -216,9 +212,9 @@
         }
 
         .menu-lateral a:hover {
-            background-color: var(--color-terciario);
-            transform: translateX(8px);
-            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            background-color: white;
+            transform: translateX(5px);
+            box-shadow: var(--sombra);
         }
 
         .menu-lateral a:hover::before {
@@ -226,10 +222,10 @@
         }
 
         .menu-lateral i {
-            margin-right: 12px; /* Aumentado el espacio */
+            margin-right: 12px;
             width: 20px;
             text-align: center;
-            font-size: 1.1rem; /* Aumentado ligeramente */
+            color: var(--color-primario);
         }
 
         .contacto-menu {
@@ -1020,7 +1016,7 @@
     <!-- Encabezado con búsqueda y carrito -->
     <header class="encabezado-principal">
         <div class="titulo-encabezado">
-            <h1>SOLUN</h1>
+            <h1>SOLUNA</h1>
         </div>
         <div class="busqueda-contenedor">
             <input type="text" placeholder="Buscar productos...">
@@ -1037,7 +1033,7 @@
         <!-- Menú lateral más ancho -->
         <nav class="menu-lateral">
             <div class="logo-container">
-                <div class="logo">SOLUN</div>
+                <div class="logo">SOLUNA</div>
                 <div class="eslogan">Artesanías en velas y decoración para tus eventos especiales</div>
             </div>
             
@@ -1056,7 +1052,7 @@
                 </div>
                 <div class="contacto-item">
                     <i class="fas fa-envelope"></i>
-                    <span>solunaclientes@gmail.com</span>
+                    <span>SOLUNAaclientes@gmail.com</span>
                 </div>
                 <div class="contacto-item">
                     <i class="fas fa-map-marker-alt"></i>
@@ -1075,7 +1071,7 @@
         <!-- Contenido principal -->
         <main class="contenido-principal">
             <section class="seccion-bienvenida" id="inicio">
-                <h2>Bienvenidos a SOLUN</h2>
+                <h2>Bienvenidos a SOLUNA</h2>
                 <p>Creaciones artesanales únicas que transforman tus eventos en momentos inolvidables. Especialistas en velas aromáticas, decoración floral y recuerdos personalizados.</p>
                 <button class="btn-destacado">Ver Catálogo Completo</button>
             </section>
@@ -1211,7 +1207,7 @@
                 <div class="testimonios-contenedor">
                     <div class="testimonio">
                         <div class="testimonio-texto">
-                            Las velas aromáticas de SOLUN transformaron completamente la atmósfera de mi boda. El aroma era perfecto y todos mis invitados preguntaban dónde las había comprado.
+                            Las velas aromáticas de SOLUNA transformaron completamente la atmósfera de mi boda. El aroma era perfecto y todos mis invitados preguntaban dónde las había comprado.
                         </div>
                         <div class="testimonio-autor">
                             <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="María González">
@@ -1237,7 +1233,7 @@
 
                     <div class="testimonio">
                         <div class="testimonio-texto">
-                            Los recuerdos personalizados para los invitados de mi boda fueron un éxito absoluto. SOLUN captó perfectamente el estilo que quería y la atención al cliente fue excepcional.
+                            Los recuerdos personalizados para los invitados de mi boda fueron un éxito absoluto. SOLUNA captó perfectamente el estilo que quería y la atención al cliente fue excepcional.
                         </div>
                         <div class="testimonio-autor">
                             <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Ana Torres">
@@ -1294,7 +1290,7 @@
             <footer class="pie-pagina">
                 <div class="pie-contenedor">
                     <div class="pie-columna">
-                        <h3>SOLUN</h3>
+                        <h3>SOLUNA</h3>
                         <p>Artesanías en velas y decoración para eventos especiales. Creando momentos memorables desde 2018.</p>
                         <div class="redes-sociales">
                             <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
@@ -1318,7 +1314,7 @@
                         <h3>Contacto</h3>
                         <ul>
                             <li><a href="tel:+523351069229"><i class="fas fa-phone"></i> 335 106 9229</a></li>
-                            <li><a href="mailto:solunaclientes@gmail.com"><i class="fas fa-envelope"></i> solunaclientes@gmail.com</a></li>
+                            <li><a href="mailto:SOLUNAaclientes@gmail.com"><i class="fas fa-envelope"></i> SOLUNAaclientes@gmail.com</a></li>
                             <li><i class="fas fa-map-marker-alt"></i> Guadalajara, Jalisco, México</li>
                             <li><i class="fas fa-clock"></i> Lunes a Sábado: 10am - 7pm</li>
                         </ul>
@@ -1326,7 +1322,7 @@
                 </div>
 
                 <div class="pie-copyright">
-                    <p>&copy; 2023 SOLUN - Recuerdos y Decoración para Eventos | Todos los derechos reservados</p>
+                    <p>&copy; 2023 SOLUNA - Recuerdos y Decoración para Eventos | Todos los derechos reservados</p>
                 </div>
             </footer>
         </main>
